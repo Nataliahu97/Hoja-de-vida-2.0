@@ -11,10 +11,11 @@ background: linear-gradient(155deg, rgba(186,231,223,1) 0%, rgba(255,247,241,0.9
   width: 100%;
 }
 img {
-border-radius: 300px;
+  border-radius: 50%;
 width: 200px;
 height: 200px;
-display: inline-block;  
+  display: block;
+ margin: 0px auto;
 }
 article{
   height: auto;
@@ -31,9 +32,9 @@ article{
 }
 
 h1{
-  color: pink;
+text-align: center;
   font-family: 'Shadows Into Light', cursive;
-
+color: pink;
 }
 p{
   color: solid black;
