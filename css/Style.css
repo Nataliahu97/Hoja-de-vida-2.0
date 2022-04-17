@@ -1,0 +1,8 @@
+/* selector html */
+img {
+border-radius: 300px;
+width: 200px;
+height: 200px;
+display: inline-block;
+vertical-align:text-top;
+}
