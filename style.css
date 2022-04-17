@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Shadows+Into+Light&display=swap');
+
+html,body{
+margin: 0;
+  body: 0;
+  background: rgb(186,231,223);
+background: linear-gradient(155deg, rgba(186,231,223,1) 0%, rgba(255,247,241,0.9962359943977591) 35%, rgba(255,229,229,0.9318102240896359) 80%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+img {
+border-radius: 300px;
+width: 200px;
+height: 200px;
+display: inline-block;  
+}
+article{
+  height: auto;
+  width: 350px;
+  background: white;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  color: pink;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+p{
+  color: solid black;
+  font-family: 'Raleway', sans-serif;
+  padding: 9px
+}
