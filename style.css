@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 html,body {
-margin: 0;
+  margin: 0;
   body: 0;
   background-image: linear-gradient(to right top, #f6eff1, #f5eff3, #f4f0f4, #f3f0f5, #f1f1f6, #f0f2f6, #f0f2f6, #f0f3f6, #f1f4f6, #f1f4f5, #f3f5f5, #f4f5f5);
   background-size: cover;
@@ -13,6 +13,7 @@ margin: 0;
 #titulo {
   color: pink;
   text: align; center;
+  
 }
 h1 {
 text-align: center;
@@ -25,7 +26,7 @@ img {
   display: block;
   margin: 0px auto;
 }
-article {
+.contacto {
   padding: 10px;
   height: 550px;
   width: 350px;
@@ -43,14 +44,26 @@ article {
   background: mediumaquamarine;
   appearance: center;
 }
-span .foto {
+p .foto {
   border: radius: 50%;
   width: 30px;
   height: 30px;
   padding: 10px;
   float: left;
 }
-p {
-  color: solid black;
-  padding: 9px
+
+.personal {
+  padding: 10px;
+  height: 550px;
+  width: 350px;
+  background: white;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin: 30px;
+  margin-left;
+  margin-right: auto;
+}
+.informacion-personal p strong {
+
 }
