@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-html,body{
+html,body {
 margin: 0;
   body: 0;
   background-image: linear-gradient(to right top, #f6eff1, #f5eff3, #f4f0f4, #f3f0f5, #f1f1f6, #f0f2f6, #f0f2f6, #f0f3f6, #f1f4f6, #f1f4f5, #f3f5f5, #f4f5f5);
@@ -14,7 +14,7 @@ margin: 0;
   color: pink;
   text: align; center;
 }
-h1{
+h1 {
 text-align: center;
 color: pink;
 }
@@ -25,7 +25,7 @@ img {
   display: block;
   margin: 0px auto;
 }
-article{
+article {
   padding: 10px;
   height: 550px;
   width: 350px;
@@ -50,7 +50,7 @@ span .foto {
   padding: 10px;
   float: left;
 }
-p{
+p {
   color: solid black;
   padding: 9px
 }
