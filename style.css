@@ -13,6 +13,7 @@ html,body {
 #titulo {
   color: pink;
   text: align; center;
+  text-shadow: white 5px 1px 4px;
   
 }
 h1 {
@@ -26,9 +27,9 @@ img {
   display: block;
   margin: 0px auto;
 }
-.contacto {
+#contacto {
   padding: 10px;
-  height: 550px;
+  height: 500px;
   width: 350px;
   background: white;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -41,20 +42,19 @@ img {
 .line {
   width: 50%;
   height: 1px;
-  background: mediumaquamarine;
-  appearance: center;
+  background: lightpink;
 }
-p .foto {
-  border: radius: 50%;
+#contacto .foto {
+  border: radius: 55%;
   width: 30px;
   height: 30px;
-  padding: 10px;
   float: left;
+  vertical-align: b;
 }
 
-.personal {
+#personal {
   padding: 10px;
-  height: 550px;
+  height: 450px;
   width: 350px;
   background: white;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -64,6 +64,28 @@ p .foto {
   margin-left;
   margin-right: auto;
 }
-.informacion-personal p strong {
+#personal p em {
+  color: hotpink;
+}
+#personal .logo {
+  width: 100px;
+  height: auto;
+  float: center;
+  border: 100%;
+}
 
+#informacion {
+  padding: 10px;
+  height: 500px;
+  width: 350px;
+  background: white;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin: 30px;
+  margin-left;
+  margin-right: auto;
+}
+.skills{
+  
 }
