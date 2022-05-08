@@ -86,6 +86,10 @@ img {
   margin-left;
   margin-right: auto;
 }
-.skills{
-  
+.skills {
+  border: solid ;
+  text-align: left;
+  color: pink;
+  padding: 3px;
 }
+  
