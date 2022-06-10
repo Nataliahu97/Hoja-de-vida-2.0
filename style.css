@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+:root {
+  --color-text: pink;
+}
+
 html,body {
   margin: 0;
   body: 0;
@@ -11,14 +15,14 @@ html,body {
 }
 
 #titulo {
-  color: pink;
+  color: var(--color-text);
   text: align; center;
   text-shadow: white 5px 1px 4px;
   
 }
-h1 {
+h2 {
 text-align: center;
-color: pink;
+color: var(--color-text);
 }
 img {
   border-radius: 50%;
@@ -49,7 +53,6 @@ img {
   width: 30px;
   height: 30px;
   float: left;
-  vertical-align: b;
 }
 
 #personal {
@@ -89,7 +92,7 @@ img {
 .skills {
   border: solid ;
   text-align: left;
-  color: pink;
+  color: var(--color-text);
   padding: 3px;
 }
   
